@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
-  token: 'MTQ4NzU0NjU4MzgyMTA1ODI2OA.Gz9AN8.73ugjkhopF72blYCaVe3905lpKzp76QYtQw9Co',
+  token: process.env.DISCORD_TOKEN,
   clientId: '1487546583821058268',
 
   giveaway: {
